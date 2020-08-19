@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(./css/Nanotech/Nanotech\NormalItalic.otf);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+.topicon:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.navbar {
+  background-color: 0 10px 10px rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.05) !important;
+}
+.nav-item:hover {
+  background-color: rgba(0, 140, 255, 0.1);
+  border-radius: 50px;
+}
+#wwu {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 50px;
+}
+.nav-link {
+  color: black !important;
+}
+
+#logo3 {
+  width: 25%;
+}
+#topnav {
+  box-shadow: none !important;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 15px;
+}
+
+.breadcrumb {
+  background-color: none !important;
+  box-shadow: none !important;
+}
+#top {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  width: 100vh;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  left: 37vh;
+}
+#cardad {
+  margin: 0;
+  padding: 0;
+}
+#bn-cta-5 {
+  position: relative;
+  top: -5vh;
+
+  margin-top: 0rem;
+  margin-right: 5px;
+  display: inline-block;
+  background: linear-gradient(to right, #ffffff 50%, rgba(0, 0, 0, 0.6) 50%);
+
+  padding: 0.8rem 1.2rem;
+  border-radius: 15px;
+  font-weight: 200;
+  text-decoration: none;
+  font-family: sans-serif;
+  transform: translateY(5vh);
+  transition: all 0.5s ease-out;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  z-index: 24;
+  align-content: center;
+}
+
+#bn-cta-5:hover {
+  color: rgb(0, 0, 0);
+  background-position: left bottom;
+}
+
+#contact {
+  position: relative;
+  left: 15vh;
+}
+.quick {
+  position: relative;
+  right: -15vh;
+}
+.footer-quick {
+  position: relative;
+  right: -7vh;
+  padding-bottom: 2vh !important;
+}
+.wick {
+  list-style-type: none;
+}
+.bick {
+  list-style-type: none;
+  position: relative;
+  right: 6vh;
+}
+#main {
+  position: relative;
+  left: -3vh !important;
+  width: 80vh;
+}
+.card {
+  width: 50vh !important;
+}
+
+/*media quaries*/
+
+@media only screen and (max-width: 1199px) {
+  #contact {
+    position: relative;
+    left: 2vh;
+  }
+  .quick {
+    position: relative;
+    left: -4vh;
+  }
+  .footer-quick {
+    position: relative;
+    right: -7vh;
+    padding-bottom: 2vh !important;
+  }
+  .wick {
+    list-style-type: none;
+    position: relative;
+    right: -4vh;
+  }
+  .bick {
+    list-style-type: none;
+    position: relative;
+    right: -3vh;
+  }
+  #main {
+    position: relative;
+    left: -15vh !important;
+    font-size: 1.6vh;
+    width: 50vh;
+  }
+  #top {
+    width: 50vh;
+    position: relative;
+    left: 8vh;
+  }
+  .card {
+    width: 20vh !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #logo {
+    width: 14vh;
+    left: 0;
+  }
+  .carousel-item {
+    height: auto;
+  }
+  #navbarnav {
+    height: 100vh;
+  }
+  #mobilemenu {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    color: black;
+    padding: 0 0 0 15px;
+  }
+  #mobmen {
+    background-image: url(./img/button.svg);
+
+    width: 3em;
+    height: 3em;
+  }
+  #mobmen::after {
+    background-image: url(/totell-e1559974619203.png);
+  }
+
+  #iconrowbot {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10vh;
+  }
+  #iconrowbot i {
+    margin: 0px;
+    padding: 0;
+  }
+  #iconrowbot a {
+    justify-content: center;
+    padding: 0;
+  }
+  .card:hover {
+    box-shadow: 0 5px 5px solid black !important;
+  }
+  #foot-main {
+    font-size: 1vh !important;
+  }
+  #contact {
+    position: relative;
+    left: 1vh;
+  }
+  .quick {
+    position: relative;
+    left: 0;
+  }
+  .footer-quick {
+    position: relative;
+    right: -5vh;
+    padding-bottom: 2vh !important;
+  }
+  .wick {
+    list-style-type: none;
+    position: relative;
+    right: -2vh;
+  }
+  .bick {
+    list-style-type: none;
+    position: relative;
+    right: -1vh;
+  }
+  #main {
+    position: relative;
+    left: -15vh !important;
+    font-size: 1.6vh;
+    width: 50vh;
+  }
+  span a {
+    color: #3498db !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #trendcards2 {
+    height: 150px !important;
+    width: 100%;
+  }
+
+  #A-heading {
+    font-size: 27px !important;
+  }
+
+  #para1 {
+    font-size: 15px !important;
+  }
+  #ad {
+    height: 300px !important;
+  }
+
+  #topnav {
+    padding-left: 100px !important;
+    size: 20px !important;
+  }
+  #topicon {
+    display: none !important;
+  }
+  #foot {
+    font-size: 10px !important;
+    margin-bottom: 0;
+  }
+  #red {
+    font-size: 20px;
+  }
+  .footer {
+    font-size: 200px !important;
+  }
+
+  #navbarnav {
+    height: 100vh;
+  }
+  #mobilemenu {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    color: black;
+    padding: 0 0 0 15px;
+  }
+  #mobmen {
+    background-image: url(./img/button.svg);
+
+    width: 3em;
+    height: 3em;
+  }
+  #mobmen::after {
+    background-image: url(/totell-e1559974619203.png);
+  }
+  #logo3 {
+    width: 100%;
+  }
+  #quicklink2 {
+    text-align: center;
+  }
+  #iconrowbot {
+    justify-content: center;
+  }
+  #iconrowbot i {
+    margin: 0px;
+    padding: 0;
+  }
+  #iconsbot {
+    text-align: center;
+  }
+
+  #latest1 h2,
+  #latest2 h2,
+  #latest3 h2 {
+    font-size: 40px;
+  }
+
+  .breadcrumb {
+    font-size: 15px;
+  }
+  #tnc {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  #carad {
+    display: inline-block;
+  }
+
+  .carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .carousel-indicators {
+    opacity: 0.1;
+  }
+  #wwu {
+    position: relative;
+    top: 40vh;
+  }
+  #top {
+    border-radius: none;
+    width: 30vh;
+    position: relative;
+    left: 1vh !important;
+  }
+  #bn-cta-5 {
+    position: relative;
+    left: 20vh;
+  }
+  .footer-title {
+    text-align: center;
+  }
+  .footer-name1 {
+    text-align: center;
+  }
+  .footer-name2 {
+    text-align: center;
+  }
+  h2 {
+    color: #fff !important;
+    font-weight: 200 !important;
+  }
+  .card {
+    position: relative !important;
+  }
+  #contact {
+    position: relative;
+    font-size: 2.5vh;
+    left: 0vh;
+    text-align: center;
+  }
+  .con {
+    font-size: 6vh;
+  }
+  .quick {
+    position: relative;
+    left: -4vh;
+    font-size: 2.5vh;
+  }
+  .footer-quick {
+    position: relative;
+    right: -7vh;
+    padding-bottom: 2vh !important;
+    font-size: 6vh;
+  }
+  .wick {
+    list-style-type: none;
+    position: relative;
+    left: 5vh;
+  }
+  .bick {
+    list-style-type: none;
+    position: relative;
+    left: 5vh;
+  }
+  #main {
+    position: relative;
+
+    font-size: 2.5vh;
+    width: 45vh;
+    left: 3.5vh !important;
+  }
+  #top {
+    width: 40vh;
+    position: relative;
+    left: 6vh !important;
+  }
+  .footer-title {
+    font-size: 3.5vh;
+  }
+  .footer-name1 {
+    font-size: 2.5vh;
+  }
+  .footer-name2 {
+    font-size: 2.5vh;
+  }
+  #bn-cta-5 {
+    display: none;
+  }
+  .card {
+    width: 40vh !important;
+    left: -2vh;
+  }
+}
